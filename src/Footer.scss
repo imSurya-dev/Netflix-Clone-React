@@ -1,0 +1,29 @@
+.footer{
+    padding: 20px 0px;
+    width: 60%;
+    margin-left: 20%;
+    color: grey;
+    .footer__social{
+        margin-bottom: 15px;
+        a{
+            text-decoration: none;
+        }
+        img{
+            cursor: pointer;
+            height: 25px;
+            margin-right: 15px;
+        }
+    }
+    .footer__portfolio{
+        margin-bottom: 15px;
+        a{
+            text-decoration: none;
+            color: grey;
+            transition: all 0.3s;
+        }
+        a:hover{
+            color: rgb(199, 198, 198)
+        }
+        
+    }
+}
